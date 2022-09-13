@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="index-style.css">
+	<title>Test page</title>
+</head>
+<body>
+	<div class="header">
+		<h1 class="name">Ascii receitas</h1>
+		<a class="enviar" onclick="acao();"><img src="assets/Folha.png"><br>Envie sua receita</a>
+		<input type="text" class="pesquisa" placeholder="Pesquisa">
+	</div>
+	<div class="panel">
+		<div class="card">
+			<img src="assets/pastel.png" class="prato">
+			<div class="card-bottom">
+			<p><img src="assets/Relogio.png"><br>40 min</p>
+			<a href="pagina-prato.html" class="abrir-receita">Ver Receita</a>
+			</div>
+		</div>
+		<div class="card">
+			<img src="assets/pastel.png" class="prato">
+			<div class="card-bottom">
+			<p><img src="assets/Relogio.png"><br>40 min</p>
+			<a href="pagina-prato.html" class="abrir-receita">Ver Receita</a>
+			</div>
+		</div>
+		<div class="card">
+			<img src="assets/pastel.png" class="prato">
+			<div class="card-bottom">
+			<p><img src="assets/Relogio.png"><br>40 min</p>
+			<a href="pagina-prato.html" class="abrir-receita">Ver Receita</a>
+			</div>
+		</div>
+		<div class="card">
+			<img src="assets/pastel.png" class="prato">
+			<div class="card-bottom">
+			<p><img src="assets/Relogio.png"><br>40 min</p>
+			<a href="pagina-prato.html" class="abrir-receita">Ver Receita</a>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<p>Feito com  ❤ por Gabriel e Vinicius</p>
+	</div>
+	<div class="modal-bg" id="modal-bg">
+		<div class="modal">
+			<div class="nome">
+				<p>Nome</p>
+				<input type="text" name="">
+			</div>
+			<div class="sobrenome">
+				<p>Sobrenome</p>
+				<input type="text" name="">
+			</div>
+			<p>Nome da receita</p>
+			<input style="width: 40%;"type="text" name="">
+			<p>Insira uma imagem</p>
+			<input type="file" name="">
+			<p style="font-size: 18px;">Digite a receita e seu modo de preparo e ingredientes </p>
+			<textarea rows="24"></textarea>
+			<a class="enviar-receita" onclick="fecharacao();">Enviar</a>
+		</div>
+	</div>
+	<script type="text/javascript" src="index-script.js"></script>
+</body>
+</html>

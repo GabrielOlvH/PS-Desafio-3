@@ -1,0 +1,212 @@
+
+@font-face {
+  font-family: 'Inter';
+  src: url('assets/Inter-Regular.ttf');
+}
+
+
+@font-face {
+  font-family: 'Kavoon';
+  src: url('assets/Kavoon-Regular.otf');
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: 'Inter';
+}
+
+section {
+	display: none;
+	height: 100%;
+}
+
+.name {
+	color: #00FFFF;
+	font-family: 'Kavoon';
+	font-size: 25px;
+	text-shadow: 4px 0 #BDBDBD, -4px 0 #BDBDBD, 0 4px #BDBDBD, 0 -4px #BDBDBD,
+             2px 2px #BDBDBD, -2px -2px #BDBDBD, 2px -2px #BDBDBD, -2px 2px #BDBDBD;
+}
+
+.header {
+	padding-left: 25px;
+	padding-right: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	background-color: teal;
+	position: fixed;
+	width: 100%;
+	height: 8%;
+	margin: 0;
+	top: 0;
+	left: 0;
+}
+
+.enviar {
+	color: white;
+	text-align: center;
+	position: fixed;
+	left: 60%;
+	cursor: pointer;
+}
+
+.pesquisa {
+	left: 80%;
+	position: fixed;
+	border: none;
+	border-radius: 25px;
+	padding: 18px;
+	text-align: center;
+}
+
+
+.panel {
+	background-color: #192939;
+	position: fixed;
+	height: 85.5%;
+	width: 50%;
+	margin: 0;
+	top: 50.5%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	padding: 25px;
+	padding-right: 40px;
+	padding-left: 40px;
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.abrir-receita {
+	background-color: teal;
+	border-radius: 35px;
+	font-size: 20px;
+	color: black;
+	border: none;
+	padding: 20px;
+	cursor: pointer;
+	float: right;
+	text-decoration: none;
+	width: 60%;
+	text-align: center;
+}
+
+.footer {
+	background-color: turquoise;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 7%;
+	margin: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.footer p {
+	text-align: center;
+	color: white;
+	font-size: 35px;
+}
+
+.card {
+	background-color: white;
+	border-radius: 25px;
+	width: 45%;
+	height: 45%;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-bottom: 10px;
+}
+
+.card p {
+	display: inline-block;
+	font-weight: 400;
+	font-size: 22px;
+	text-align: center;
+}
+
+.card-bottom {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: relative;
+}
+
+.prato {
+	width: 100%;
+	height: 70%;
+	border-radius: 25px;
+}
+
+
+.modal-bg {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+	background-color: rgba(0,128,128, 0.8);
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 40%;
+	
+	padding: 25px;
+
+}
+
+.modal p {
+	color: white;
+	font-size: 24px;
+}
+
+.modal input {
+	margin-bottom: 15px;
+	height: 50px;
+	width: 80%;
+	font-size: 25px;
+}
+
+.nome {
+	display: inline-block;
+	width: 50%;
+}
+
+.sobrenome {
+	float: right;
+	width: 50%;
+}
+
+textarea {
+	width: 100%;
+	
+	margin-bottom: 40px;
+}
+
+.enviar-receita {
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: white;
+	color: black;
+	border-radius: 24px;
+	text-align: center;
+	padding: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+	cursor: pointer;
+}

@@ -1,0 +1,219 @@
+
+@font-face {
+  font-family: 'Inter';
+  src: url('assets/Inter-Regular.ttf');
+}
+
+
+@font-face {
+  font-family: 'Kavoon';
+  src: url('assets/Kavoon-Regular.otf');
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-family: 'Inter';
+}
+
+section {
+	display: none;
+	height: 100%;
+}
+
+.name {
+	color: #00FFFF;
+	font-family: 'Kavoon';
+	font-size: 25px;
+	text-shadow: 4px 0 #BDBDBD, -4px 0 #BDBDBD, 0 4px #BDBDBD, 0 -4px #BDBDBD,
+             2px 2px #BDBDBD, -2px -2px #BDBDBD, 2px -2px #BDBDBD, -2px 2px #BDBDBD;
+}
+
+.header {
+	padding-left: 25px;
+	padding-right: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	background-color: teal;
+	position: fixed;
+	width: 100%;
+	height: 8%;
+	margin: 0;
+	top: 0;
+	left: 0;
+}
+
+.pesquisa {
+	left: 70%;
+	position: fixed;
+	border: none;
+	border-radius: 25px;
+	padding: 18px;
+	text-align: center;
+}
+.voltar {
+	cursor: pointer;
+}
+
+h1 {
+	display: inline-block;
+	
+	font-size: 32px;
+}
+
+select {
+	display: inline-block;
+	text-align: center;
+	float: right;
+	background-color: #0B7373;
+	border-radius: 10px;
+	color: white;
+	font-size: 28px;
+	font-weight: 900;
+	padding: 0px;
+	margin-top: 0px;
+}
+
+option {
+	background-color: #D9D9D9;
+	color: black;
+}
+
+.panel {
+	background-color: #192939;
+	position: fixed;
+	height: 80%;
+	min-width: 75%;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	padding: 25px;
+	padding-right: 40px;
+	padding-left: 40px;
+	color: white;
+}
+
+.abrir-receita {
+	background-color: teal;
+	border-radius: 25px;
+	font-size: 20px;
+	color: black;
+	border: none;
+	padding: 15px;
+	padding-right: 35px;
+	padding-left: 35px;
+	cursor: pointer;
+}
+
+.footer {
+	background-color: turquoise;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	width: 100%;
+	height: 7%;
+	margin: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.footer p {
+	text-align: center;
+	color: white;
+	font-size: 35px;
+}
+
+.foto-prato {
+	position: relative;
+	left: 50%;
+	width: 95%;
+	height: 70%;
+	transform: translateX(-50%);
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.info-prato img {
+	position: relative;
+	display: inline-block;
+	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	top: 50%;
+	transform: translateY(-50%);
+	
+}
+
+
+.info-prato {
+	display: inline-block;
+	position: fixed;
+	bottom: 20px;
+	background-color: #0B7373;
+	border-radius: 5px;
+	width: 44%;
+	height: 12%;
+	font-weight: 900;
+	text-align: center;
+	padding: 10px;
+	margin: 15px;
+}
+.porcoes {
+	right: 25%;
+	transform: translateX(50%);
+}
+.tempo {
+	left: 25%;
+	transform: translateX(-50%);
+}
+.info-texto {
+	font-size: 24px;
+	position: fixed;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-40%,-50%);
+	display: inline-block;
+}
+
+ul {
+	font-size: 25px;
+	font-weight: 900;
+	line-height: 45px;
+	margin-top: 45px;
+}
+
+ol {
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+	font-weight: 900;
+	width: 80%;
+	font-size: 24px;
+	text-align: center;
+	line-height: 29px;
+	margin-top: 45px;
+}
+
+ol li {
+	margin-top: 15px;
+}
+
+.ingredientes-title img {
+	height: 58px;
+	width: 50px;
+}
+
+.ingredientes-title {
+	display: inline-block;
+	position: absolute;
+	left: 45%;
+	transform: translateX(-50%);
+	top: 0;
+}

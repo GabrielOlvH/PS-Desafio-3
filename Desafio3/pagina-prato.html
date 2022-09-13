@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="prato-style.css">
+	<title>Test page</title>
+</head>
+<body>
+	<div class="header">
+		<h1 class="name">Ascii receitas</h1>
+		<input type="text" class="pesquisa" placeholder="Pesquisa">
+		<a class="voltar" href="index.html"><img src="assets/image 10.png"></a>
+	</div>
+	<div class="panel">
+		<h1>Pastel Frito</h1>
+		<select onchange="changeCards()" id="opcoes">
+			<option value="prato">Prato</option>
+			<option value="ingredientes">Ingredientes</option>
+			<option value="modo-de-preparo">Modo de Preparo</option>
+		</select>
+		<section id="prato">
+			<img class="foto-prato" src="assets/pastel.png">
+			<div class="info-prato tempo">
+				<img src="assets/Relogio.png">
+				<div class="info-texto">
+					<p>Tempo de Preparo</p>
+					<p>60 min</p>
+				</div>
+			</div>
+			<div class="info-prato porcoes">
+				<img src="assets/Pratos.png">
+				<div class="info-texto">
+					<p>Rendimento</p>
+					<p>30 PORÇÕES</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="ingredientes">
+			
+			<div class="ingredientes-title">
+				<img src="assets/image 8.png">
+				<h1>Ingredientes</h1>
+			</div>
+			
+			<ul>
+				<li>1 kg de farinha de trigo;</li>
+				<li>1/2 xícara (chá) de óleo;</li>
+				<li>1/2 xícara (chá) de leite morno;</li>
+				<li>1 colher (sopa) de vinagre;</li>
+				<li>1/2 copo (americano) de pinga;</li>
+				<li>1 colher (sopa) de sal;</li>
+				<li>2 colheres (sopa) de açúcar;</li>
+				<li>Água morna até dar o ponto;</li>
+				<li>Recheio a gosto.</li>
+			</ul>
+		</section>
+
+		<section id="modo-de-preparo">
+			
+			<ol>
+				<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio itaque qui, voluptate vitae exercitationem quod, consectetur iste quam sit.</li>
+				<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio itaque qui, voluptate vitae exercitationem quod, consectetur iste quam sit.</li>
+				<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio itaque qui, voluptate vitae exercitationem quod, consectetur iste quam sit.</li>
+				<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio itaque qui, voluptate vitae exercitationem quod, consectetur iste quam sit.</li>
+				<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio itaque qui, voluptate vitae exercitationem quod, consectetur iste quam sit.</li>
+			</ol>
+		</section>
+	</div>
+	<div class="footer">
+		<p>Feito com  ❤ por Gabriel e Vinicius</p>
+	</div>
+	<script type="text/javascript" src="prato-script.js"></script>
+</body>
+</html>
